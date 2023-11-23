@@ -1,0 +1,102 @@
+.home {
+    background-image: url(../imagenes/Backgroun__Header.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    justify-content: center;
+    padding-left: 5rem;
+    grid-area: home;
+}
+
+.home > h1 {
+    color: #0D1321;
+    margin: 15px 0 15px 0;
+    font-weight: bold;
+}
+
+.home span {
+    color: #ff2f4c;
+    border-style: double;
+    font-size: 8rem;
+}
+
+.home > p {
+    color: #0D1321;
+    font-size: 2rem;
+    text-align: center;
+    padding: 3rem 5rem 0 0;
+    font-weight: bold;
+}
+
+.item1 {
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    grid-area: header;
+
+}
+
+.item2 {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid #000000;
+    background-color: #fff;
+    grid-area: main;
+    font-size:22px;
+    text-align: center;
+}
+
+.article {
+    background: #808e9b;
+    color: #dfe6e9;
+    margin: auto 20px;
+    padding:20px;
+}
+
+.article1{
+    border: solid black 1px;
+    color: black;
+    margin: auto 20px;
+    padding: 20px;
+}
+
+.item3 {
+    display: flex;
+    background-color: #485460;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    grid-area: aside;
+    font-size: 20px;
+}
+
+.img3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 20px 5px 20px;
+}
+aside div{
+    margin: 5px 30px 20px;
+}
+
+.card {
+    float: left;
+    width: 50%;
+    padding-right: 0px;
+    display: table;
+    clear: both;
+}
+
+.card1 {
+    float: right;
+}
